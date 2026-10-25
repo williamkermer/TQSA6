@@ -19,7 +19,7 @@ def converte(numeroEmRomano):
 
     multiplicador = 1;
     if(atual < ultimovizinhodireita):
-      multiplicador = 1;
+      multiplicador = -1;
 
     acumulador += atual * multiplicador;       
     ultimovizinhodireita = atual;
